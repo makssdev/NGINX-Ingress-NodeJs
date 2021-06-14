@@ -1,0 +1,9 @@
+kubectl apply -f deployment.yaml
+kubectl apply -f ingress.yaml
+
+kubectl get ingress #смотрим установлен ли IP-address
+
+minikube ip #получения внешнего IP
+gedit /etc/hosts #добавляем IP 
+
+192.168.49.2 node-ingress.com
